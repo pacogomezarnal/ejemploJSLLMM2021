@@ -4,7 +4,7 @@ function convertirEuros(){
     var yenes;
 
     euros=document.getElementById("euros");
-    console.log(euros.value);
+    console.log(parseFloat(euros.value));
     dolares=document.getElementById("dolares");
     dolares.value=euros.value*1.21;
     yenes=document.getElementById("yenes");
